@@ -1,6 +1,6 @@
 run:
-	poetry run python src/main.py
+	poetry run python main.py
 test:
 	poetry run pytest
 fmt:
-	poetry run black
+	poetry run black .
